@@ -83,7 +83,7 @@ _public | |
 **STEP TWO:**\
 2.1 Use `node CheckUser.js` to manage end-user accounts with CRUD algorithms in term of GET, POST, PUT and DELETE user records one by one.\
 2.2 Open a broswer and type `localhost:8080/users` to list out all user records stored on the COLLECTION of users under the mongoDB of `test`.\
-2.3 The operation in details can watch the video of Demonstration of Authentication & Encrypted Function for Login Processes for further reference: [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/JiOhTotg-P0) 
+2.3 The operation in details can watch the video of Demonstration of Authentication & Encrypted Function for Login Processes for further reference:\ [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/JiOhTotg-P0) 
 
 **STEP THREE:**\
 After registration of creating a new user account and logon to the Movie Search Webpage successfully, you may open POSTMAN to execute CRUD operation with the following files:\
