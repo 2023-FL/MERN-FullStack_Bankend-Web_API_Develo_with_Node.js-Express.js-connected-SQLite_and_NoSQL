@@ -72,6 +72,7 @@ _public | |
 .| | _nav.ejs
 
 **STEP ONE:**
+1.0 Install npm on your computer; then use `npm i mongodb mongoose express sqlite sqlite3 body-parser request readline readline-sync date-and-time timezone-support path moment-timezone nodemon --save`
 1.1 Use `npm install` to install the packages;
 1.2 then use 'npm start' to execute "app.js" for for operating a new registration for a new user account;
 1.3 Execute two files `./app.js` and a database file stored on MongDB Database of `test` and Collection of `users` for records and authentication purposes. In the field of password relatd to each registered end-user would be encrypted meanwhile. Then you will receive authentication email for activating a new user account via your personal email account;
