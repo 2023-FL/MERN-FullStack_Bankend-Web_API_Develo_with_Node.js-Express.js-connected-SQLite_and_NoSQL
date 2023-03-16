@@ -88,13 +88,13 @@ _public | |
 After registration of creating a new user account and logon to the Movie Search Webpage successfully, you may open POSTMAN to execute CRUD operation with the following files:
 3.1. Use `node mongoDBapp.js` to get what historial movie information you want with OMDB api key, then save the movie information into the COLLECTION of `movies` under the MongoDatabase of `project` automatically. 
 
-3.2. You operate CRUD intem of GET, POST, PUT and DELETE processess through POSTMAN to manage the movie records in the mongoDatabase one by one. The operation in details can watch the attached video of [![Watch the video]("Demonstration_of_MongoDB_API_Mini_Project_Movie_CRUD_023-03-10-180613.mp4"](https://youtu.be/RJzwXLdnj_0)
+3.2. You operate CRUD intem of GET, POST, PUT and DELETE processess through POSTMAN to manage the movie records in the mongoDatabase one by one. The operation in details can watch the attached video of [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/RJzwXLdnj_0)
 
 **STEP FOUR:**
 4.1 Go to subfolder of `module` and use `node SQLite3app.js
 and a database file `moviesData.db` consisting of one tables `movies`.
 `./mongoDBapp.js`, `./module/SQLite3app.js` and a database file `./module/films.db` consisting of one tables `movies` in S.
-The operation in details can watch the attached video of [![Watch the video]("Demonstration_of_SQLite3_API_Mini_Project_Movie_CRUD_023-03-10-180613.mp4")(https://youtu.be/uUOYJMKGhCk)].
+The operation in details can watch the attached video of [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/uUOYJMKGhCk).
 
 In step five, write APIs to perform CRUD operations on the tables `movies` containing the following columns,
 
