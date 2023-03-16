@@ -71,32 +71,31 @@ _public | |
 .| | _head.ejs
 .| | _nav.ejs
 
-**STEP ONE:**
-1.0 Install npm on your computer; then use `npm i mongodb mongoose express sqlite sqlite3 body-parser request readline readline-sync date-and-time timezone-support path moment-timezone nodemon --save`
-1.1 Use `npm install` to install the packages;
-1.2 then use 'npm start' to execute "app.js" for for operating a new registration for a new user account;
-1.3 Execute two files `./app.js` and a database file stored on MongDB Database of `test` and Collection of `users` for records and authentication purposes. In the field of password relatd to each registered end-user would be encrypted meanwhile. Then you will receive authentication email for activating a new user account via your personal email account;
-1.4 when login webpage was redirected successfully, you may logon to your own user accout with your created password. During creating a new user account, the personal password is being encrypted and then save a new user document into the COLLECTION of `users` under the mongoDataBase of `test` after authentication passed successfully via the activation from the user personal email.
+**STEP ONE:**\
+1.0 Install npm on your computer; then use `npm i mongodb mongoose express sqlite sqlite3 body-parser request readline readline-sync date-and-time timezone-support path moment-timezone nodemon --save`\
+1.1 Use `npm install` to install the packages;\
+1.2 then use 'npm start' to execute "app.js" for for operating a new registration for a new user account;\
+1.3 Execute two files `./app.js` and a database file stored on MongDB Database of `test` and Collection of `users` for records and authentication purposes. In the field of password relatd to each registered end-user would be encrypted meanwhile. Then you will receive authentication email for activating a new user account via your personal email account;\
+1.4 when login webpage was redirected successfully, you may logon to your own user accout with your created password. During creating a new user account, the personal password is being encrypted and then save a new user document into the COLLECTION of `users` under the mongoDataBase of `test` after authentication passed successfully via the activation from the user personal email.\
 
-1.5 You may watch video of [![Watch the video]("Demonstration_of_Authentication & Encrypted Login Processes_API_Mini_Project_Login_CRUD_023-03-10-180613.mp4")](https://youtu.be/JiOhTotg-P0)for further reference on how to operate the backend file of app.js by opening the webpage of `localhost:10889` on the browser.
+1.5 You may watch video of [![Watch the video]("Demonstration_of_Authentication & Encrypted Login Processes_API_Mini_Project_Login_CRUD_023-03-10-180613.mp4")](https://youtu.be/JiOhTotg-P0)for further reference on how to operate the backend file of app.js by opening the webpage of `localhost:10889` on the browser.\
 
-**STEP TWO:**
-2.1 Use `node CheckUser.js` to manage end-user accounts with CRUD algorithms in term of GET, POST, PUT and DELETE user records one by one.
-2.2 Open a broswer and type `localhost:8080/users` to list out all user records stored on the COLLECTION of users under the mongoDB of `test`.
-2.3 The operation in details can watch the video of [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/JiOhTotg-P0) for further reference.
+**STEP TWO:**\
+2.1 Use `node CheckUser.js` to manage end-user accounts with CRUD algorithms in term of GET, POST, PUT and DELETE user records one by one.\
+2.2 Open a broswer and type `localhost:8080/users` to list out all user records stored on the COLLECTION of users under the mongoDB of `test`.\
+2.3 The operation in details can watch the video of [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/JiOhTotg-P0) for further reference.\
 
-**STEP THREE:**
-After registration of creating a new user account and logon to the Movie Search Webpage successfully, you may open POSTMAN to execute CRUD operation with the following files:
-3.1. Use `node mongoDBapp.js` to get what historial movie information you want with OMDB api key, then save the movie information into the COLLECTION of `movies` under the MongoDatabase of `project` automatically. 
-
-3.2. You operate CRUD intem of GET, POST, PUT and DELETE processess through POSTMAN to manage the movie records in the mongoDatabase one by one. The operation in details can watch the attached video of [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/RJzwXLdnj_0)
+**STEP THREE:**\
+After registration of creating a new user account and logon to the Movie Search Webpage successfully, you may open POSTMAN to execute CRUD operation with the following files:\
+3.1. Use `node mongoDBapp.js` to get what historial movie information you want with OMDB api key, then save the movie information into the COLLECTION of `movies` under the MongoDatabase of `project` automatically.\
+3.2. You operate CRUD intem of GET, POST, PUT and DELETE processess through POSTMAN to manage the movie records in the mongoDatabase one by one. The operation in details can watch the attached video of [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/RJzwXLdnj_0)\
 
 **STEP FOUR:**
-4.1 Go to subfolder of `module` and use `node SQLite3app.js
-and a database file `moviesData.db` consisting of one tables `movies`.
-`./mongoDBapp.js`, `./module/SQLite3app.js` and a database file `./module/films.db` consisting of one tables `movies` in S.
-The operation in details can watch the attached video of [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/uUOYJMKGhCk).
+4.1 Go to subfolder of `module` and use `node SQLite3app.js and a database file `moviesData.db` consisting of one tables `movies`.\
+`./mongoDBapp.js`, `./module/SQLite3app.js` and a database file `./module/films.db` consisting of one tables `movies` in S.\
+The operation in details can watch the attached video of [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/uUOYJMKGhCk).\
 
+**STEP FIVE:**
 In step five, write APIs to perform CRUD operations on the tables `movies` containing the following columns,
 
 **Movies Table in SQLite3 Database**
