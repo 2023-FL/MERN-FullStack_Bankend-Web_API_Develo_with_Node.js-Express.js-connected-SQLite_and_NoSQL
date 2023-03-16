@@ -93,10 +93,11 @@ After registration of creating a new user account and logon to the Movie Search 
 **STEP FOUR:**\
 4.1 Go to subfolder of `module` and use `node SQLite3app.js and a database file `moviesData.db` consisting of one tables `movies`.\
 `./mongoDBapp.js`, `./module/SQLite3app.js` and a database file `./module/films.db` consisting of one tables `movies` in S.\
-The operation in details can watch the attached video of Demonstration of Appying CRUD with SQLite3 Database:\ [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/uUOYJMKGhCk)
+The operation in details can watch the attached video of Demonstration of Appying CRUD with SQLite3 Database:
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/uUOYJMKGhCk)
 
 **STEP FIVE:**\
-In step five, write APIs to perform CRUD operations on the tables `movies` containing the following columns,\
+In step five, write APIs to perform CRUD operations on the tables `movies` containing the following columns,
 
 **Movies Table in SQLite3 Database**
 
