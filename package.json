@@ -1,0 +1,39 @@
+{
+  "name": "interim-project-work",
+  "version": "0.1.0",
+  "description": "API for the Film shop front-end",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francis",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "couchbase": "^4.2.1",
+    "date-and-time": "^2.4.2",
+    "ejs": "^3.1.3",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "googleapis": "^63.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.41",
+    "mongoose": "^5.10.0",
+    "nodemailer": "^6.4.11",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "readline": "^1.3.0",
+    "request": "^2.88.2",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.5",
+    "timezone-support": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
