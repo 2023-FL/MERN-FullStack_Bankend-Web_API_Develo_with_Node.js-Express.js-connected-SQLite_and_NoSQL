@@ -90,7 +90,7 @@ After registration of creating a new user account and logon to the Movie Search 
 3.1. Use `node mongoDBapp.js` to get what historial movie information you want with OMDB api key, then save the movie information into the COLLECTION of `movies` under the MongoDatabase of `project` automatically.\
 3.2. You operate CRUD intem of GET, POST, PUT and DELETE processess through POSTMAN to manage the movie records in the mongoDatabase one by one. The operation in details can watch the attached video of [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/RJzwXLdnj_0)\
 
-**STEP FOUR:**
+**STEP FOUR:**\
 4.1 Go to subfolder of `module` and use `node SQLite3app.js and a database file `moviesData.db` consisting of one tables `movies`.\
 `./mongoDBapp.js`, `./module/SQLite3app.js` and a database file `./module/films.db` consisting of one tables `movies` in S.\
 The operation in details can watch the attached video of [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/uUOYJMKGhCk).\
