@@ -1,5 +1,5 @@
 # MERN-Full-Stack-Web-Application-Development-with-SQL-and-NoSQL
-Backend Movies API Development with SQLite3 and MongoDB
+Backend Movies API Development with SQLite3 and MongoDB without a full frontpage for movie search.
 # Movies
 The following processes focused on the creation of a new user registration and logon to the Webpage of `Movie Search` function with the registered user record in term of GET function to find out the user record from the collection of `users` under the mongoDatabase `test` firstly.
 
